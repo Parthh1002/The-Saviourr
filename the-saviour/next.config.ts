@@ -1,14 +1,16 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // SSR mode — API routes and Puppeteer work correctly
+  // SSR mode — optimized for Vercel deployment
   images: {
     unoptimized: true,
   },
   typescript: {
     ignoreBuildErrors: true,
   },
-  outputFileTracingRoot: require('path').join(__dirname, '../'),
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;

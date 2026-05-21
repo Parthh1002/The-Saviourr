@@ -1,16 +1,11 @@
 import { NextResponse } from 'next/server';
-import puppeteer from 'puppeteer';
-import { reportCache } from '@/lib/reportCache';
 import { randomUUID } from 'crypto';
 
 export async function POST(request: Request) {
   try {
     const filters = await request.json();
 
-    // In a real scenario, we would use filters to query MongoDB via Mongoose.
-    // e.g., const data = await ActivityLog.find({ timestamp: { $gte: filters.startDate } });
-    
-    // For this demonstration, we'll simulate an advanced AI analysis engine combining real and mock data.
+    // Generate report data (in production, this would query your database)
     const reportData = {
       id: randomUUID(),
       filters,
@@ -52,49 +47,12 @@ export async function POST(request: Request) {
       ]
     };
 
-    // Store the data in the in-memory cache
-    reportCache.set(reportData.id, reportData);
-
-    // Launch Puppeteer to generate the PDF
-    const browser = await puppeteer.launch({
-      headless: true,
-      args: ['--no-sandbox', '--disable-setuid-sandbox']
-    });
-
-    const page = await browser.newPage();
-    
-    // We navigate to a specific hidden route in our Next.js app that renders the report visually
-    // using the cached data ID.
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
-    await page.goto(`${baseUrl}/report-view?id=${reportData.id}`, {
-      waitUntil: 'networkidle0', // Wait until all charts have animated and loaded
-      timeout: 15000
-    });
-
-    // Generate PDF
-    const pdfBuffer = await page.pdf({
-      format: 'A4',
-      printBackground: true,
-      margin: {
-        top: '20px',
-        right: '20px',
-        bottom: '20px',
-        left: '20px'
-      }
-    });
-
-    await browser.close();
-
-    // Return the PDF buffer directly
-    return new NextResponse(pdfBuffer as any, {
-      headers: {
-        'Content-Type': 'application/pdf',
-        'Content-Disposition': 'attachment; filename="Saviour_Enterprise_Report.pdf"'
-      }
-    });
+    // Return the report data as JSON — PDF generation will happen client-side
+    // using html2canvas + jspdf (already installed in the project)
+    return NextResponse.json(reportData);
 
   } catch (error) {
-    console.error('PDF Generation Error:', error);
-    return NextResponse.json({ error: 'Failed to generate PDF report' }, { status: 500 });
+    console.error('Report Generation Error:', error);
+    return NextResponse.json({ error: 'Failed to generate report data' }, { status: 500 });
   }
 }
