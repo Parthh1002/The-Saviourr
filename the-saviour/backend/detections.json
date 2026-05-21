@@ -1,0 +1,392 @@
+[
+    {
+        "class_name": "POACHER",
+        "confidence": 0.1007,
+        "bbox": [
+            85,
+            144,
+            70,
+            229
+        ],
+        "timestamp": 1778660936.1414225,
+        "id": "895202",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Human Intrusion",
+        "_id": "6a04364807ecd49fa2e729bf"
+    },
+    {
+        "class_name": "WEAPON",
+        "confidence": 0.1023,
+        "bbox": [
+            110,
+            102,
+            44,
+            39
+        ],
+        "timestamp": 1778660934.091545,
+        "id": "789271",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Threat Identified",
+        "_id": "6a04364607ecd49fa2e729be"
+    },
+    {
+        "class_name": "WEAPON",
+        "confidence": 0.1602,
+        "bbox": [
+            112,
+            103,
+            32,
+            33
+        ],
+        "timestamp": 1778660931.5757613,
+        "id": "998251",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Threat Identified",
+        "_id": "6a04364307ecd49fa2e729bd"
+    },
+    {
+        "class_name": "POACHER",
+        "confidence": 0.4368,
+        "bbox": [
+            86,
+            139,
+            96,
+            237
+        ],
+        "timestamp": 1778660927.433886,
+        "id": "753624",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Human Intrusion",
+        "_id": "6a04363f07ecd49fa2e729bb"
+    },
+    {
+        "class_name": "POACHER",
+        "confidence": 0.1007,
+        "bbox": [
+            85,
+            144,
+            70,
+            229
+        ],
+        "timestamp": 1778658092.1870475,
+        "id": "579370",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Human Intrusion",
+        "_id": "6a042b2c8d5a82c01b58519f"
+    },
+    {
+        "class_name": "WEAPON",
+        "confidence": 0.1023,
+        "bbox": [
+            110,
+            102,
+            44,
+            39
+        ],
+        "timestamp": 1778658089.6663952,
+        "id": "325431",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Threat Identified",
+        "_id": "6a042b298d5a82c01b58519e"
+    },
+    {
+        "class_name": "WEAPON",
+        "confidence": 0.1602,
+        "bbox": [
+            112,
+            103,
+            32,
+            33
+        ],
+        "timestamp": 1778658087.2006855,
+        "id": "484405",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Threat Identified",
+        "_id": "6a042b278d5a82c01b58519d"
+    },
+    {
+        "class_name": "POACHER",
+        "confidence": 0.4368,
+        "bbox": [
+            86,
+            139,
+            96,
+            237
+        ],
+        "timestamp": 1778658082.9763062,
+        "id": "803181",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Human Intrusion",
+        "_id": "6a042b228d5a82c01b58519b"
+    },
+    {
+        "class_name": "ANIMAL",
+        "confidence": 0.9029,
+        "bbox": [
+            626,
+            530,
+            481,
+            967
+        ],
+        "timestamp": 1778658065.6281774,
+        "id": "391807",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Animal Detection",
+        "_id": "6a042b118d5a82c01b58519a"
+    },
+    {
+        "class_name": "ANIMAL",
+        "confidence": 0.8676,
+        "bbox": [
+            268,
+            199,
+            344,
+            243
+        ],
+        "timestamp": 1778658055.5219586,
+        "id": "385028",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Animal Detection",
+        "_id": "6a042b078d5a82c01b585199"
+    },
+    {
+        "class_name": "ANIMAL",
+        "confidence": 0.8676,
+        "bbox": [
+            268,
+            199,
+            344,
+            243
+        ],
+        "timestamp": 1778606073.1051733,
+        "id": "942814",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Animal Detection",
+        "_id": "6a035ff99fd29916cd8113ab"
+    },
+    {
+        "class_name": "ANIMAL",
+        "confidence": 0.8676,
+        "bbox": [
+            268,
+            199,
+            344,
+            243
+        ],
+        "timestamp": 1778605881.3051682,
+        "id": "774792",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Animal Detection",
+        "_id": "6a035f399fd29916cd8113aa"
+    },
+    {
+        "class_name": "WEAPON",
+        "confidence": 0.7434,
+        "bbox": [
+            417,
+            284,
+            816,
+            319
+        ],
+        "timestamp": 1778525706.2499335,
+        "id": "512478",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Threat Identified",
+        "_id": "6a02260a836c8be2ba8ed858"
+    },
+    {
+        "class_name": "ANIMAL",
+        "confidence": 0.8086,
+        "bbox": [
+            130,
+            94,
+            157,
+            179
+        ],
+        "timestamp": 1778525644.0122397,
+        "id": "364988",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Animal Detection",
+        "_id": "6a0225cc836c8be2ba8ed857"
+    },
+    {
+        "class_name": "ANIMAL",
+        "confidence": 0.9279,
+        "bbox": [
+            121,
+            101,
+            243,
+            202
+        ],
+        "timestamp": 1778519147.9025545,
+        "id": "460064",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Animal Detection",
+        "_id": "6a020c6becaab6012a3b92e7"
+    },
+    {
+        "class_name": "VEHICLE",
+        "confidence": 0.789,
+        "bbox": [
+            494,
+            398,
+            725,
+            343
+        ],
+        "timestamp": 1778496490.3837404,
+        "id": "989576",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Animal Detection",
+        "_id": "6a01b3eaecaab6012a3b92e5"
+    },
+    {
+        "class_name": "VEHICLE",
+        "confidence": 0.789,
+        "bbox": [
+            494,
+            398,
+            725,
+            343
+        ],
+        "timestamp": 1778496330.0510867,
+        "id": "776284",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Animal Detection",
+        "_id": "6a01b34a3d36de080508b2e0"
+    },
+    {
+        "class_name": "ANIMAL",
+        "confidence": 0.8086,
+        "bbox": [
+            130,
+            94,
+            157,
+            179
+        ],
+        "timestamp": 1778496280.8822122,
+        "id": "797586",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Animal Detection",
+        "_id": "6a01b3183d36de080508b2df"
+    },
+    {
+        "class_name": "WEAPON",
+        "confidence": 0.7434,
+        "bbox": [
+            417,
+            284,
+            816,
+            319
+        ],
+        "timestamp": 1778496209.8159914,
+        "id": "965435",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Threat Identified",
+        "_id": "6a01b2d13d36de080508b2dd"
+    },
+    {
+        "class_name": "WEAPON",
+        "confidence": 0.7434,
+        "bbox": [
+            417,
+            284,
+            816,
+            319
+        ],
+        "timestamp": 1778496106.0978634,
+        "id": "379098",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Threat Identified",
+        "_id": "6a01b26acc671a707cc078bb"
+    },
+    {
+        "class_name": "WEAPON",
+        "confidence": 0.7434,
+        "bbox": [
+            417,
+            284,
+            816,
+            319
+        ],
+        "timestamp": 1778495091.400948,
+        "id": "111007",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Threat Identified",
+        "_id": "6a01ae7341ddf54e79da012c"
+    },
+    {
+        "class_name": "WEAPON",
+        "confidence": 0.7434,
+        "bbox": [
+            417,
+            284,
+            816,
+            319
+        ],
+        "timestamp": 1778493859.6756973,
+        "id": "249988",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Threat Identified",
+        "_id": "6a01a9a364e3282fcee7bc52"
+    },
+    {
+        "class_name": "ANIMAL",
+        "confidence": 0.9279,
+        "bbox": [
+            121,
+            101,
+            243,
+            202
+        ],
+        "timestamp": 1778493683.5817883,
+        "id": "484459",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Animal Detection",
+        "_id": "6a01a8f378b621a944034cc1"
+    },
+    {
+        "class_name": "ANIMAL",
+        "confidence": 0.8086,
+        "bbox": [
+            130,
+            94,
+            157,
+            179
+        ],
+        "timestamp": 1778493524.6687887,
+        "id": "279286",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Animal Detection",
+        "_id": "6a01a85478b621a944034cc0"
+    },
+    {
+        "class_name": "ANIMAL",
+        "confidence": 0.8086,
+        "bbox": [
+            130,
+            94,
+            157,
+            179
+        ],
+        "timestamp": 1778493209.567633,
+        "id": "566138",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Animal Detection",
+        "_id": "6a01a71978b621a944034cbf"
+    },
+    {
+        "class_name": "ANIMAL",
+        "confidence": 0.8086,
+        "bbox": [
+            130,
+            94,
+            157,
+            179
+        ],
+        "timestamp": 1778493042.6790044,
+        "id": "847637",
+        "location": "Sector 4 - Alpha Feed",
+        "activity_type": "Animal Detection",
+        "_id": "6a01a672ed74baca638613d4"
+    }
+]

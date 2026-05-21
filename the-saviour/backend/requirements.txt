@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+motor
+pymongo
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+pydantic
+pydantic-settings
+ultralytics
+opencv-python-headless
+Pillow
+numpy

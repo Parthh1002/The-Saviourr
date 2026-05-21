@@ -1,0 +1,51 @@
+[
+    {
+        "id": "ALT-3279",
+        "alert_type": "CRITICAL: POACHER DETECTED",
+        "severity": "critical",
+        "location": "Remote Sector Feed",
+        "description": "AI identified a POACHER with 43.7% confidence.",
+        "timestamp": 1778660929.5012634
+    },
+    {
+        "id": "ALT-1397",
+        "alert_type": "CRITICAL: POACHER DETECTED",
+        "severity": "critical",
+        "location": "Remote Sector Feed",
+        "description": "AI identified a POACHER with 43.7% confidence.",
+        "timestamp": 1778658085.1643276,
+        "status": "resolved"
+    },
+    {
+        "id": "ALT-5966",
+        "alert_type": "CRITICAL: WEAPON DETECTED",
+        "severity": "critical",
+        "location": "Remote Sector Feed",
+        "description": "AI identified a WEAPON with 74.3% confidence.",
+        "timestamp": 1778525708.2551725,
+        "status": "resolved"
+    },
+    {
+        "id": "ALT-5954",
+        "alert_type": "SECURITY: VEHICLE DETECTED",
+        "severity": "high",
+        "location": "Remote Sector Feed",
+        "description": "AI identified a VEHICLE with 78.9% confidence.",
+        "timestamp": 1778496492.432099,
+        "status": "resolved"
+    },
+    {
+        "id": "ALT-7822",
+        "alert_type": "CRITICAL: WEAPON DETECTED",
+        "severity": "critical",
+        "location": "Remote Sector Feed",
+        "description": "AI identified a potential WEAPON with 74.3% confidence.",
+        "status": "resolved"
+    },
+    {
+        "alert_type": "CRITICAL: WEAPON DETECTED",
+        "severity": "critical",
+        "location": "Remote Sector Feed",
+        "description": "AI identified a potential WEAPON with 74.3% confidence."
+    }
+]

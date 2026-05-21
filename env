@@ -1,0 +1,15 @@
+GMAIL_USER=jhondoe.11012@gmail.com
+GMAIL_APP_PASSWORD=sjxn yoyo pled ehvk
+OFFICER_ALERT_EMAILS=11a21278parth@gmail.com
+NEXT_PUBLIC_API_URL=https://saviour-ai-core-mj1n.onrender.com
+NEXT_PUBLIC_AI_URL=https://saviour-ai-core-mj1n.onrender.com
+NEXT_PUBLIC_WS_URL=wss://saviour-ai-core-mj1n.onrender.com/ws/alerts
+# Firebase Config
+NEXT_PUBLIC_FIREBASE_API_KEY=AIzaSyD9cqtti9D6o3CqBFB_UntHDDgc3icpw8s
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=the-saviour-224bf.firebaseapp.com
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=the-saviour-224bf
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=the-saviour-224bf.firebasestorage.app
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=851979896858
+NEXT_PUBLIC_FIREBASE_APP_ID=1:851979896858:web:83a5f712ca34355f29a9a3
+NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=G-TCV76YZXQB
+
