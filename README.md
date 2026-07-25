@@ -28,6 +28,16 @@
 
 ---
 
+## 👥 Team Members & Workflow Roles
+
+| Contributor | Primary Role | Core Workflow & Responsibilities |
+| :--- | :--- | :--- |
+| **Parth** | **Backend Lead & Core Architect** | • Developed the complete **FastAPI (Python 3.12)** backend services.<br>• Designed **MongoDB Atlas (Motor Async)** schemas & database management.<br>• Implemented real-time **WebSocket streaming engine** for live threat alerts.<br>• Engineered **JWT authentication & Gmail OTP verification** pipelines. |
+| **Asfaq** | **Frontend Lead & System Testing** | • Engineered the **Next.js 16 (App Router)** UI & **Tailwind CSS v4** styling.<br>• Integrated **Leaflet GIS Map** and **Recharts analytics** components.<br>• Ensured **100% Mobile & Desktop responsiveness** across all views.<br>• Conducted comprehensive end-to-end system testing & bug fixes. |
+| **Sami** | **AI / ML Data Engineer** | • Curated and annotated dataset images for poachers, weapons, & wildlife.<br>• Trained custom **YOLOv8 deep learning models** on **Google Colab GPUs**.<br>• Fine-tuned confidence scores, bounding box parameters, and detection accuracy.<br>• Exported & optimized model weights (`best.pt`) for backend integration. |
+
+---
+
 ## ✨ Key Features
 
 - 🤖 **AI-Powered Real-Time Threat Detection**:
@@ -103,21 +113,21 @@
 
 ```mermaid
 graph TD
-    A[📹 Surveillance Cameras / Drones / CCTV Feeds] -->|RTSP / H264 Streams| B[⚡ FastAPI Backend]
-    B -->|Frames| C[🧠 YOLOv8 Inference Engine]
-    C -->|Bounding Boxes & Detections| B
+    A["📹 Surveillance Cameras / Drones / CCTV Feeds"] -->|"RTSP / H264 Streams"| B["⚡ FastAPI Backend"]
+    B -->|"Frames"| C["🧠 YOLOv8 Inference Engine"]
+    C -->|"Bounding Boxes & Detections"| B
     
-    B -->|Check Confidence Threshold| D{Threat Detected?}
-    D -->|Yes (Poacher/Weapon)| E[🚨 Emergency Alert System]
-    D -->|No (Normal Activity)| F[💾 MongoDB Logging]
+    B -->|"Check Confidence Threshold"| D{"Threat Detected?"}
+    D -->|"Yes - Poacher / Weapon"| E["🚨 Emergency Alert System"]
+    D -->|"No - Normal Activity"| F["💾 MongoDB Logging"]
     
-    E -->|WebSocket Broadcast| G[💻 Next.js 16 Ranger Dashboard]
-    E -->|SMTP / Gmail API| H[📧 Emergency Email & OTP Notification]
+    E -->|"WebSocket Broadcast"| G["💻 Next.js 16 Ranger Dashboard"]
+    E -->|"SMTP / Gmail API"| H["📧 Emergency Email & OTP Notification"]
     
-    G -->|Interactive GIS Map| I[🗺️ Leaflet Tracking & Heatmaps]
-    G -->|Analytical Reports| J[📄 PDF Export - Puppeteer/JsPDF]
+    G -->|"Interactive GIS Map"| I["🗺️ Leaflet Tracking & Heatmaps"]
+    G -->|"Analytical Reports"| J["📄 PDF Export - Puppeteer/JsPDF"]
     
-    F -->|Store Logs| K[🍃 MongoDB Atlas Async]
+    F -->|"Store Logs"| K["🍃 MongoDB Atlas Async"]
 ```
 
 ---
