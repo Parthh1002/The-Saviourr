@@ -3,6 +3,7 @@
   # 🌲 THE SAVIOUR 🛡️
   ### Next-Gen AI-Powered Wildlife Surveillance & Poaching Prevention Platform
 
+  [![Live Demo](https://img.shields.io/badge/🌐_LIVE_WEBSITE-the--saviour.vercel.app-00703c?style=for-the-badge&logo=vercel)](https://the-saviour.vercel.app)
   [![Next.js](https://img.shields.io/badge/Next.js-16.2.4-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
   [![React](https://img.shields.io/badge/React-19.2.4-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
   [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
@@ -11,11 +12,10 @@
   [![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-FF6F00?style=for-the-badge&logo=ultralytics)](https://docs.ultralytics.com/)
   [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?style=for-the-badge&logo=pytorch)](https://pytorch.org/)
   [![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb)](https://www.mongodb.com/)
-  [![Firebase](https://img.shields.io/badge/Firebase-Auth-FFCA28?style=for-the-badge&logo=firebase)](https://firebase.google.com/)
-  [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
   <p align="center">
-    <b>Empowering Forest Officers & Wildlife Conservators with Real-Time AI Computer Vision, Threat Alerts, and Emergency Response Management.</b>
+    <b>🌐 Live Working Website:</b> <a href="https://the-saviour.vercel.app">https://the-saviour.vercel.app</a><br>
+    <i>Empowering Forest Officers & Wildlife Conservators with Real-Time AI Computer Vision, Threat Alerts, and Emergency Response Management.</i>
   </p>
 
   ---
@@ -28,13 +28,23 @@
 
 ---
 
-## 👥 Team Members & Workflow Roles
+## 🌐 Live Website & Links
 
-| Contributor | Primary Role | Core Workflow & Responsibilities |
+| Resource | URL Link | Status |
 | :--- | :--- | :--- |
-| **Parth** | **Backend Lead & Core Architect** | • Developed the complete **FastAPI (Python 3.12)** backend services.<br>• Designed **MongoDB Atlas (Motor Async)** schemas & database management.<br>• Implemented real-time **WebSocket streaming engine** for live threat alerts.<br>• Engineered **JWT authentication & Gmail OTP verification** pipelines. |
-| **Asfaq** | **Frontend Lead & System Testing** | • Engineered the **Next.js 16 (App Router)** UI & **Tailwind CSS v4** styling.<br>• Integrated **Leaflet GIS Map** and **Recharts analytics** components.<br>• Ensured **100% Mobile & Desktop responsiveness** across all views.<br>• Conducted comprehensive end-to-end system testing & bug fixes. |
-| **Sami** | **AI / ML Data Engineer** | • Curated and annotated dataset images for poachers, weapons, & wildlife.<br>• Trained custom **YOLOv8 deep learning models** on **Google Colab GPUs**.<br>• Fine-tuned confidence scores, bounding box parameters, and detection accuracy.<br>• Exported & optimized model weights (`best.pt`) for backend integration. |
+| 🚀 **Live Web Platform** | [https://the-saviour.vercel.app](https://the-saviour.vercel.app) | 🟢 Active & Deployed |
+| 📁 **GitHub Repository** | [https://github.com/Parthh1002/The-Saviourr](https://github.com/Parthh1002/The-Saviourr) | 🟢 Public Repository |
+| ⚡ **FastAPI Swagger API Docs** | [http://localhost:8000/docs](http://localhost:8000/docs) | 🟢 Local / Server Endpoint |
+
+---
+
+## 👥 Team Members & Workflow Architecture
+
+| Member | Primary Role | Domain & Task Workflow |
+| :--- | :--- | :--- |
+| **Parth** | **Backend Lead & Core Architect** | • **Full Backend Engine**: Developed complete FastAPI (Python 3.12) server.<br>• **Database & Schema**: Implemented MongoDB Atlas (Motor Async Engine) for real-time detection logging.<br>• **Real-Time Telemetry**: Built WebSocket streaming pipeline (`/ws/live-feed`) for instant alert push.<br>• **Security & Auth**: Engineered JWT token authentication, Bcrypt password hashing, & Gmail SMTP OTP dispatch. |
+| **Asfaq** | **Frontend Lead & System Testing** | • **User Interface**: Designed & built full Next.js 16 (App Router) & Tailwind CSS v4 dashboard.<br>• **GIS & Analytics**: Integrated Leaflet interactive map nodes & Recharts live performance charts.<br>• **Mobile Optimization**: Made the entire web app 100% responsive across phones, tablets, & desktops.<br>• **Quality Assurance**: Conducted end-to-end integration testing, UI bug fixes, & automated PDF report generation. |
+| **Sami** | **AI / ML Data Scientist** | • **Dataset Preparation**: Collected and annotated custom dataset images for poachers, firearms, tigers, elephants, & vehicles.<br>• **Model Training**: Trained YOLOv8 object detection model on Google Colab GPUs (T4/A100).<br>• **Hyperparameter Tuning**: Optimized confidence thresholds, bounding box predictions, & frame rates.<br>• **Model Deployment**: Exported `best.pt` weights and linked inference pipeline into OpenCV/PyTorch backend. |
 
 ---
 
