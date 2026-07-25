@@ -180,9 +180,9 @@ export default function TrackingMap({ mode, onSelectLocation }: TrackingMapProps
     >
       
       {/* Coordinates Display */}
-      <div className="absolute top-4 left-1/2 -translate-x-1/2 z-[400] bg-background/90 backdrop-blur-md px-4 py-2 rounded-full border border-border shadow-sm text-xs font-mono flex items-center gap-4 text-foreground transition-all">
-        <span className="flex items-center gap-2"><span className="text-primary">LAT:</span> {coords.lat}° N</span>
-        <span className="flex items-center gap-2"><span className="text-primary">LNG:</span> {coords.lng}° E</span>
+      <div className="absolute top-4 left-4 sm:left-1/2 sm:-translate-x-1/2 z-[400] bg-background/90 backdrop-blur-md px-3 sm:px-4 py-1.5 sm:py-2 rounded-full border border-border shadow-sm text-[10px] sm:text-xs font-mono flex items-center gap-2 sm:gap-4 text-foreground transition-all">
+        <span className="flex items-center gap-1 sm:gap-2"><span className="text-primary font-bold">LAT:</span> {coords.lat}° N</span>
+        <span className="flex items-center gap-1 sm:gap-2"><span className="text-primary font-bold">LNG:</span> {coords.lng}° E</span>
       </div>
 
       {/* Mode Controls / Fullscreen Toggle */}

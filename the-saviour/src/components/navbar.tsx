@@ -123,8 +123,28 @@ export function Navbar() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-t border-border/50 glass">
+        <div className="md:hidden border-t border-border/50 glass animate-in slide-in-from-top duration-300">
           <div className="flex flex-col p-4 space-y-3">
+            {/* Mobile Officer Status & Emergency Siren */}
+            <div className="flex items-center justify-between bg-panel p-3 rounded-lg border border-border">
+              <div className="flex items-center gap-2 text-xs font-mono text-primary font-bold">
+                <span className="relative flex h-2 w-2">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+                </span>
+                {officerId ? `${officerId} [${role === 'main_officer' ? 'CMD' : 'FIELD'}]` : 'SYSTEM ONLINE'}
+              </div>
+              {role === 'main_officer' && (
+                <button
+                  onClick={() => isSirenActive ? stopSiren() : playSiren()}
+                  className={`flex items-center gap-1.5 px-2.5 py-1 rounded text-[11px] font-bold transition-all border ${isSirenActive ? 'bg-danger text-white border-danger animate-pulse' : 'bg-background border-danger/50 text-danger'}`}
+                >
+                  <Siren className={`h-3.5 w-3.5 ${isSirenActive ? 'animate-spin' : ''}`} />
+                  {isSirenActive ? 'STOP' : 'SIREN'}
+                </button>
+              )}
+            </div>
+
             {NAV_LINKS.map((link) => {
               const Icon = link.icon;
               const isActive = pathname === link.href;
@@ -132,11 +152,14 @@ export function Navbar() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  onClick={() => setMobileMenuOpen(false)}
+                  onClick={() => {
+                    playClick();
+                    setMobileMenuOpen(false);
+                  }}
                   className={cn(
-                    "flex items-center gap-3 px-4 py-3 rounded-lg transition-all",
+                    "flex items-center gap-3 px-4 py-3 rounded-lg transition-all font-medium text-sm",
                     isActive
-                      ? "bg-primary/10 text-primary border border-primary/20"
+                      ? "bg-primary/10 text-primary border border-primary/20 font-bold"
                       : "text-secondary hover:text-foreground hover:bg-secondary/10"
                   )}
                 >
@@ -145,6 +168,16 @@ export function Navbar() {
                 </Link>
               );
             })}
+
+            <button
+              onClick={() => {
+                setMobileMenuOpen(false);
+                handleLogout();
+              }}
+              className="w-full mt-2 bg-danger/10 text-danger border border-danger/20 py-3 rounded-lg text-sm font-medium hover:bg-danger hover:text-white transition-all text-center flex items-center justify-center gap-2"
+            >
+              Logout Officer Session
+            </button>
           </div>
         </div>
       )}
