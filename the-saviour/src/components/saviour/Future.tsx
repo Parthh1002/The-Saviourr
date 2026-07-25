@@ -12,12 +12,12 @@ const future: { icon: LucideIcon; t: string; d: string }[] = [
 
 export function Future() {
   return (
-    <section className="relative py-32 md:py-44 px-6 overflow-hidden">
+    <section className="relative py-12 md:py-18 px-4 sm:px-6 overflow-hidden">
       <div className="absolute inset-0 -z-10 bg-background" />
       <div className="mx-auto max-w-7xl">
         <Header />
 
-        <div className="mt-20 grid md:grid-cols-2 gap-6">
+        <div className="mt-10 sm:mt-12 grid md:grid-cols-2 gap-6">
           {future.map((f, i) => (
             <Card key={f.t} {...f} index={i} />
           ))}

@@ -5,7 +5,7 @@ import { ShieldCheck, Fingerprint, KeyRound, Lock, ArrowRight } from "lucide-rea
 export function OfficerLogin() {
   const ref = useReveal<HTMLDivElement>();
   return (
-    <section id="officer" className="relative py-32 md:py-44 px-6 overflow-hidden">
+    <section id="officer" className="relative py-12 md:py-18 px-4 sm:px-6 overflow-hidden">
       <div className="absolute inset-0 -z-10 bg-background" />
       <div className="mx-auto max-w-7xl grid lg:grid-cols-2 gap-16 items-center">
         <div>

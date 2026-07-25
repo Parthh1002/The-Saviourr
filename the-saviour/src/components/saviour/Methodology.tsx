@@ -14,18 +14,18 @@ const steps: { icon: LucideIcon; label: string; sub: string }[] = [
 
 export function Methodology() {
   return (
-    <section id="methodology" className="relative py-32 md:py-44 px-6 overflow-hidden">
+    <section id="methodology" className="relative py-12 md:py-18 px-4 sm:px-6 overflow-hidden">
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-background via-forest/30 to-background" />
       <div className="mx-auto max-w-7xl">
         <Header />
 
-        <div className="mt-20 relative">
+        <div className="mt-10 sm:mt-12 relative">
           {/* Vertical connector line */}
           <div className="absolute left-7 md:left-1/2 top-0 bottom-0 w-[3px] md:-translate-x-1/2 hover:scale-105 transition-transform origin-top">
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/80 to-transparent" />
           </div>
 
-          <div className="space-y-16 md:space-y-24">
+          <div className="space-y-10 md:space-y-14">
             {steps.map((s, i) => (
               <Step key={s.label} step={s} index={i} />
             ))}

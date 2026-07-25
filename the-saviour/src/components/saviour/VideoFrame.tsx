@@ -4,11 +4,11 @@ import { Maximize2, Shield, Radio, Activity } from "lucide-react";
 
 export function VideoFrame() {
   return (
-    <section className="relative py-24 px-6 overflow-hidden bg-background">
+    <section className="relative py-10 md:py-16 px-4 sm:px-6 overflow-hidden bg-background">
       <div className="max-w-7xl mx-auto">
         
         {/* Section Header */}
-        <div className="mb-12 text-center">
+        <div className="mb-6 sm:mb-8 text-center">
             <div className="inline-flex items-center gap-3 px-4 py-1.5 rounded-full border border-neon/20 bg-neon/5 text-neon text-[10px] font-mono uppercase tracking-[0.3em] mb-4">
                 <span className="w-2 h-2 rounded-full bg-neon animate-pulse" />
                 Live Command Interface

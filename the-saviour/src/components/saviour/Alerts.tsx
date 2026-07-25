@@ -6,30 +6,30 @@ import { AlertTriangle, MessageSquare, Mail, MapPin, Shield } from "lucide-react
 export function Alerts() {
   const ref = useReveal<HTMLDivElement>();
   return (
-    <section className="relative py-32 md:py-44 px-6 overflow-hidden">
+    <section className="relative py-12 md:py-18 px-4 sm:px-6 overflow-hidden">
       <div className="absolute inset-0 -z-10 bg-background" />
       <div
         className="absolute top-1/3 right-0 w-[500px] h-[500px] rounded-full blur-[140px] -z-10 opacity-20"
         style={{ background: "rgba(16, 185, 129, 0.15)" }}
       />
 
-      <div className="mx-auto max-w-7xl grid lg:grid-cols-2 gap-16 items-center">
+      <div className="mx-auto max-w-7xl grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
         <div>
-          <div className="flex items-center gap-4 text-xl font-mono uppercase tracking-[0.3em] text-emerald-600/80 mb-6">
+          <div className="flex items-center gap-4 text-lg md:text-xl font-mono uppercase tracking-[0.3em] text-emerald-600/80 mb-4 sm:mb-6">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-blink" />
             Chapter 06 — Alert System
           </div>
-          <h2 className="font-display text-4xl md:text-6xl font-semibold tracking-tight leading-tight">
+          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight leading-tight">
             When seconds matter, <br />
             <span className="text-emerald-600">everyone gets notified.</span>
           </h2>
-          <p className="mt-6 text-muted-foreground leading-relaxed max-w-lg">
+          <p className="mt-4 sm:mt-6 text-muted-foreground text-sm sm:text-base leading-relaxed max-w-lg">
             The instant a verified threat is detected, alerts fan out across every
             channel — push notifications, SMS, email, and dispatch radio. Nearest
             rangers see the live feed before they arrive.
           </p>
 
-          <div className="mt-8 grid grid-cols-2 gap-3 max-w-md">
+          <div className="mt-6 sm:mt-8 grid grid-cols-2 gap-3 max-w-md">
             {[
               { icon: MessageSquare, l: "SMS Dispatch" },
               { icon: Mail, l: "Email Alerts" },
@@ -44,7 +44,7 @@ export function Alerts() {
           </div>
         </div>
 
-        <div ref={ref} className="reveal relative h-[650px] flex items-center justify-center">
+        <div ref={ref} className="reveal relative h-[520px] sm:h-[620px] flex items-center justify-center">
           {/* iPhone 17 Pro Mockup - Enhanced to match image */}
           <div className="relative w-[320px] h-[640px] bg-[#08090a] rounded-[4rem] p-2 shadow-[0_50px_100px_-20px_rgba(0,0,0,0.8)] border-[1px] border-white/5 overflow-hidden group">
             {/* Bezels */}

@@ -14,19 +14,19 @@ const stats = [
 
 export function Dataset() {
   return (
-    <section className="relative py-32 md:py-44 px-6 overflow-hidden">
+    <section className="relative py-12 md:py-18 px-4 sm:px-6 overflow-hidden">
       <div className="absolute inset-0 -z-10 bg-background" />
       <div className="mx-auto max-w-7xl">
         <Header />
 
-        <div className="mt-16 grid grid-cols-12 gap-3 md:gap-4">
+        <div className="mt-8 sm:mt-10 grid grid-cols-12 gap-3 md:gap-4">
           <Tile src={tiger} alt="Tiger" className="col-span-7 row-span-2 aspect-[4/5]" tag="Panthera tigris · Confidence 99.2%" delay={0} />
           <Tile src={elephant} alt="Elephant herd" className="col-span-5 aspect-[4/3]" tag="Loxodonta · Confidence 97.8%" delay={120} />
           <Tile src={leopard} alt="Leopard" className="col-span-5 aspect-[4/3]" tag="Panthera pardus · Confidence 98.6%" delay={240} />
           <Tile src={deer} alt="Deer" className="col-span-12 aspect-[16/6]" tag="Cervus elaphus · Confidence 96.4%" delay={360} />
         </div>
 
-        <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-px bg-border rounded-2xl overflow-hidden">
+        <div className="mt-10 sm:mt-14 grid grid-cols-1 md:grid-cols-3 gap-px bg-border rounded-2xl overflow-hidden">
           {stats.map((s, i) => (
             <Counter key={s.label} {...s} index={i} />
           ))}

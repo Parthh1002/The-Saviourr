@@ -26,19 +26,19 @@ const species = [
 export function Analytics() {
   const ref = useReveal<HTMLDivElement>();
   return (
-    <section id="analytics" className="relative py-32 md:py-44 px-6 overflow-hidden">
+    <section id="analytics" className="relative py-12 md:py-18 px-4 sm:px-6 overflow-hidden">
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-background via-secondary/40 to-background" />
       <div className="mx-auto max-w-7xl">
         <div ref={ref} className="reveal max-w-3xl">
-          <div className="flex items-center gap-4 text-xl font-mono uppercase tracking-[0.3em] text-neon/80 mb-6">
+          <div className="flex items-center gap-4 text-lg md:text-xl font-mono uppercase tracking-[0.3em] text-neon/80 mb-4 sm:mb-6">
             <span className="w-12 h-px bg-neon/40" />
             Chapter 07 — Database Analytics
           </div>
-          <h2 className="font-display text-4xl md:text-6xl font-semibold tracking-tight leading-tight">
+          <h2 className="font-display text-3xl sm:text-4xl md:text-6xl font-semibold tracking-tight leading-tight">
             Every detection, <br />
             <span className="text-shimmer">measured and remembered.</span>
           </h2>
-          <p className="mt-6 text-muted-foreground leading-relaxed">
+          <p className="mt-4 sm:mt-6 text-sm sm:text-base text-muted-foreground leading-relaxed">
             A live analytics layer aggregates every frame, alert, and dispatch
             into a queryable database — giving conservation leaders the data to
             see patterns, prove impact, and plan ahead.
@@ -46,7 +46,7 @@ export function Analytics() {
         </div>
 
         {/* KPIs */}
-        <div className="mt-16 grid grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="mt-10 sm:mt-12 grid grid-cols-2 lg:grid-cols-4 gap-4">
           {kpis.map(({ icon: Icon, label, value, sub }) => (
             <div key={label} className="glass rounded-2xl p-6">
               <Icon className="w-5 h-5 text-neon mb-4" strokeWidth={1.5} />

@@ -32,15 +32,15 @@ export function FAQ() {
   };
 
   return (
-    <section id="faq" className="relative py-24 px-6 overflow-hidden bg-background">
+    <section id="faq" className="relative py-10 md:py-16 px-4 sm:px-6 overflow-hidden bg-background">
       <div ref={ref} className="reveal mx-auto max-w-3xl">
-        <div className="flex items-center gap-4 text-xs font-mono uppercase tracking-[0.3em] text-neon/80 mb-6 justify-center">
+        <div className="flex items-center gap-4 text-xs font-mono uppercase tracking-[0.3em] text-neon/80 mb-4 sm:mb-6 justify-center">
           <span className="w-12 h-px bg-neon/40" />
           Frequently Asked Questions
           <span className="w-12 h-px bg-neon/40" />
         </div>
         
-        <h2 className="font-display text-3xl md:text-5xl font-semibold tracking-tight text-center mb-12">
+        <h2 className="font-display text-2xl sm:text-3xl md:text-5xl font-semibold tracking-tight text-center mb-8">
           Understanding <span className="text-shimmer">The Saviour</span>.
         </h2>
 

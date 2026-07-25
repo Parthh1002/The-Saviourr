@@ -5,7 +5,7 @@ import { useReveal } from "@/hooks/use-reveal";
 export function Collage() {
   const ref = useReveal<HTMLDivElement>();
   return (
-    <section className="relative py-20 md:py-28 px-6 overflow-hidden">
+    <section className="relative py-10 md:py-16 px-4 sm:px-6 overflow-hidden">
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-background via-secondary/40 to-background" />
       <div ref={ref} className="reveal mx-auto max-w-7xl">
         <div className="flex items-center gap-4 text-xs font-mono uppercase tracking-[0.3em] text-neon/80 mb-8 justify-center">

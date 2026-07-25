@@ -14,12 +14,12 @@ const features: { icon: LucideIcon; title: string; desc: string }[] = [
 
 export function Features() {
   return (
-    <section id="features" className="relative py-32 md:py-44 px-6 overflow-hidden">
+    <section id="features" className="relative py-12 md:py-18 px-4 sm:px-6 overflow-hidden">
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-background via-forest/20 to-background" />
 
       <div className="mx-auto max-w-7xl">
         <Header />
-        <div className="mt-20 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="mt-10 sm:mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((f, i) => (
             <Card key={f.title} {...f} delay={i * 100} index={i} />
           ))}

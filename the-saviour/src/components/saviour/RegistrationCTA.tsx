@@ -6,7 +6,7 @@ export function RegistrationCTA() {
   const ref = useReveal<HTMLDivElement>();
   
   return (
-    <section id="register-cta" className="relative py-24 px-6 overflow-hidden bg-background/50 border-y border-border/50">
+    <section id="register-cta" className="relative py-10 md:py-16 px-4 sm:px-6 overflow-hidden bg-background/50 border-y border-border/50">
       <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-12">
         <div className="max-w-xl">
           <div className="flex items-center gap-4 text-xs font-mono uppercase tracking-[0.3em] text-accent/80 mb-6">

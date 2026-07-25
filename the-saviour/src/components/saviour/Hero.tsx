@@ -13,7 +13,7 @@ export function Hero() {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white">
+    <section className="relative min-h-[85vh] md:min-h-screen flex items-center justify-center overflow-hidden bg-white">
       {/* Background glow */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/3 left-1/2 w-[600px] h-[600px] -translate-x-1/2 -translate-y-1/2 bg-emerald-400/10 blur-3xl rounded-full" />
@@ -21,9 +21,9 @@ export function Hero() {
       </div>
 
       {/* Main content */}
-      <div className="relative z-10 flex flex-col items-center text-center px-6 pt-32 pb-12">
+      <div className="relative z-10 flex flex-col items-center text-center px-4 sm:px-6 pt-24 md:pt-28 pb-8">
         {/* Live badge */}
-        <div className="mb-8 flex items-center gap-3 text-[11px] md:text-xs uppercase tracking-[0.4em] text-[#00703c] font-bold opacity-0 animate-[fade-in_1s_ease_0.2s_forwards]">
+        <div className="mb-4 sm:mb-6 flex items-center gap-2 sm:gap-3 text-[10px] sm:text-xs uppercase tracking-[0.3em] text-[#00703c] font-bold opacity-0 animate-[fade-in_1s_ease_0.2s_forwards]">
           <span className="w-2 h-2 rounded-full bg-[#00703c] animate-pulse" />
           Live Surveillance • Active
           <span className="w-2 h-2 rounded-full bg-[#00703c] animate-pulse" />
@@ -31,12 +31,12 @@ export function Hero() {
         <h1
           className="
             font-display
-            text-4xl
-            sm:text-6xl
-            md:text-7xl
-            lg:text-[6rem]
+            text-3xl
+            sm:text-5xl
+            md:text-6xl
+            lg:text-[5.5rem]
             font-bold
-            leading-[1.2]
+            leading-[1.15]
             tracking-tight
             text-center
             bg-[linear-gradient(90deg,_#02122e_0%,_#0b1f4d_25%,_#00703c_50%,_#0b1f4d_75%,_#02122e_100%)]
@@ -53,16 +53,16 @@ export function Hero() {
         </h1>
 
         {/* Subtitle */}
-        <p className="mt-8 max-w-2xl text-base md:text-xl text-slate-500 leading-relaxed opacity-0 animate-[fade-in_1.2s_var(--ease-out-expo)_1s_forwards]">
+        <p className="mt-4 sm:mt-6 max-w-2xl text-sm sm:text-base md:text-lg text-slate-500 leading-relaxed opacity-0 animate-[fade-in_1.2s_var(--ease-out-expo)_1s_forwards]">
           Real-Time Anti-Poaching Surveillance System. Watching every leaf,
           every footprint — so the wild stays wild.
         </p>
 
         {/* CTA buttons */}
-        <div className="mt-10 flex flex-col sm:flex-row items-center gap-4 opacity-0 animate-[fade-in_1.2s_var(--ease-out-expo)_1.3s_forwards] z-20">
+        <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row items-center gap-3.5 opacity-0 animate-[fade-in_1.2s_var(--ease-out-expo)_1.3s_forwards] z-20 w-full sm:w-auto">
           <a 
             href="/login" 
-            className="px-8 py-4 rounded-full bg-[#00703c] text-white font-semibold shadow-[0_0_40px_rgba(0,112,60,0.45)] hover:scale-105 active:scale-95 transition-all duration-300 cursor-pointer block text-center"
+            className="w-full sm:w-auto px-8 py-3.5 rounded-full bg-[#00703c] text-white text-sm font-semibold shadow-[0_0_30px_rgba(0,112,60,0.35)] hover:scale-105 active:scale-95 transition-all duration-300 cursor-pointer block text-center"
           >
             Explore System
           </a>
@@ -70,24 +70,24 @@ export function Hero() {
             href="https://youtu.be/bVBt6yWTc9w?si=XWB662e8_695ixK1" 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="px-8 py-4 rounded-full bg-white border border-slate-200 text-slate-700 font-medium hover:bg-slate-50 hover:scale-105 active:scale-95 transition-all duration-300 block text-center cursor-pointer"
+            className="w-full sm:w-auto px-8 py-3.5 rounded-full bg-white border border-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-50 hover:scale-105 active:scale-95 transition-all duration-300 block text-center cursor-pointer"
           >
             ▶ Watch Overview
           </a>
         </div>
 
         {/* Stats strip */}
-        <div className="mt-20 grid grid-cols-3 gap-8 md:gap-16 opacity-0 animate-[fade-in_1.2s_var(--ease-out-expo)_1.6s_forwards]">
+        <div className="mt-10 sm:mt-14 grid grid-cols-3 gap-4 sm:gap-12 opacity-0 animate-[fade-in_1.2s_var(--ease-out-expo)_1.6s_forwards]">
           {[
             { v: "98.4%", l: "Detection accuracy" },
             { v: "<200ms", l: "Alert latency" },
             { v: "24/7", l: "Forest surveillance" },
           ].map((s) => (
             <div key={s.l} className="text-center">
-              <div className="font-display text-2xl md:text-3xl text-[#00703c] font-bold">
+              <div className="font-display text-xl sm:text-2xl md:text-3xl text-[#00703c] font-bold">
                 {s.v}
               </div>
-              <div className="mt-1 text-[10px] md:text-xs uppercase tracking-widest text-slate-400">
+              <div className="mt-1 text-[9px] sm:text-[10px] md:text-xs uppercase tracking-widest text-slate-400">
                 {s.l}
               </div>
             </div>
