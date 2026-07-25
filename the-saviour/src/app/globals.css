@@ -148,14 +148,20 @@ body {
   p { @apply leading-relaxed; }
 }
 
-/* Premium Light Theme Glassmorphic & Panel Cards - Aligned to Reference Style */
+/* Premium Modern Glassmorphic Cards & Panels - High Readability & Butter-Smooth Blur */
 .glass, .glass-premium, .bg-panel, [class*="bg-emerald-100"], [class*="bg-emerald-200"], [class*="bg-[#0B2E13]"], [class*="bg-[#0b2e13]"] {
-  background: #ffffff !important;
-  backdrop-filter: none !important;
-  -webkit-backdrop-filter: none !important;
-  border: 1px solid rgba(0, 112, 60, 0.12) !important;
-  box-shadow: 0 10px 30px rgba(11, 12, 12, 0.04) !important;
+  background: rgba(255, 255, 255, 0.92) !important;
+  backdrop-filter: blur(16px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+  border: 1px solid rgba(0, 112, 60, 0.15) !important;
+  box-shadow: 0 10px 30px -5px rgba(0, 112, 60, 0.05), 0 4px 12px rgba(0, 0, 0, 0.02) !important;
   color: #0b0c0c !important;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.glass:hover, .glass-premium:hover {
+  border-color: rgba(0, 112, 60, 0.28) !important;
+  box-shadow: 0 18px 40px -10px rgba(0, 112, 60, 0.10), 0 8px 20px rgba(0, 0, 0, 0.03) !important;
 }
 
 /* Make sure all descendant text inside these cards has perfect high-contrast slate-900 / black readability */

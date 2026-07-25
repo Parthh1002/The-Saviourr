@@ -63,10 +63,10 @@ export function Navbar() {
                 href={link.href}
                 onClick={playClick}
                 className={cn(
-                  "flex items-center gap-2 px-3 py-2 rounded-md transition-all duration-300",
+                  "flex items-center gap-2 px-3.5 py-2 rounded-xl transition-all duration-300 ease-out active:scale-95",
                   isActive
-                    ? "bg-primary/10 text-primary border border-primary/20 shadow-[inset_0_0_10px_rgba(16,185,129,0.1)]"
-                    : "text-secondary hover:text-foreground hover:bg-secondary/10"
+                    ? "bg-primary/10 text-primary border border-primary/25 shadow-[0_4px_15px_rgba(0,112,60,0.12)] font-bold backdrop-blur-md"
+                    : "text-secondary hover:text-foreground hover:bg-primary/5 hover:border hover:border-primary/10 hover:shadow-sm"
                 )}
               >
                 <Icon className="h-4 w-4" />
