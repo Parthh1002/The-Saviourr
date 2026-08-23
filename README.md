@@ -270,30 +270,24 @@ The-Saviourr/
 │   ├── detection-feed.jpg     # YOLOv8 Live Detection Frame
 │   ├── nature-watching.png    # Sensor Telemetry & Animal Tracking
 │   └── hero-forest.jpg        # Tactical Forest Command Zone
-├── the-saviour/               # Primary Next.js 16 Application
-│   ├── backend/               # FastAPI Asynchronous AI Backend
-│   │   ├── models/            # YOLOv8 Custom Weights (best.pt)
-│   │   ├── main.py            # FastAPI Entry Point, Routes & WebSockets
-│   │   ├── check_model.py     # Model Verification & Testing Script
-│   │   ├── database_schema.md # MongoDB Collections & Schema Docs
-│   │   └── requirements.txt   # Python Dependencies
-│   ├── src/
-│   │   ├── app/               # Next.js App Router Structure
-│   │   │   ├── page.tsx       # Landing Page & Platform Overview
-│   │   │   ├── dashboard/     # Live Ranger Command Center
-│   │   │   ├── cctv/          # Multi-Camera Feed Manager
-│   │   │   ├── alerts/        # Real-Time Intrusion Alert Log
-│   │   │   ├── analytics/     # Threat Analytics & Migration Charts
-│   │   │   ├── database/      # Historical Detection Records
-│   │   │   └── login/         # Security Authentication Portal
-│   │   ├── components/        # Reusable UI, Map & Layout Components
-│   │   ├── lib/               # Firebase, MongoDB, & Utility Helpers
-│   │   └── config/            # Site & Application Configuration
-│   ├── public/                # Static Media Assets & Icons
-│   ├── package.json           # Node Dependencies & Build Scripts
-│   ├── tailwind.config.ts     # Tailwind CSS Configuration
-│   ├── ARCHITECTURE.md        # Deep-dive System Architecture Docs
-│   └── README.md              # Project Documentation
+├── the-saviour/               # Monorepo Core Application
+│   ├── frontend/              # Next.js 16 Mission Control Web Interface
+│   │   ├── src/               # React 19 App Router Pages & Components
+│   │   │   ├── app/           # Dashboard, Alerts, CCTV, Analytics, Login
+│   │   │   ├── components/    # UI Panels, GIS Maps & Detection Streams
+│   │   │   ├── lib/           # Utility, Firebase & State Helpers
+│   │   │   └── config/        # API & Environmental Config
+│   │   ├── public/            # Static Icons, Videos & Video Feeds
+│   │   ├── package.json       # Frontend Node Dependencies
+│   │   ├── tailwind.config.ts # Tailwind CSS v4 Configuration
+│   │   └── tsconfig.json      # TypeScript Compiler Configuration
+│   └── backend/               # FastAPI Asynchronous AI Backend
+│       ├── models/            # YOLOv8 Custom Weights (best.pt)
+│       ├── main.py            # FastAPI Entry Point, Routes & WebSockets
+│       ├── check_model.py     # Model Verification & Testing Script
+│       ├── simulate_alerts.py # Real-Time Alert Simulation Engine
+│       ├── database_schema.md # MongoDB Collections & Schema Docs
+│       └── requirements.txt   # Python Dependencies
 ├── runs/                      # Local YOLO Model Training Output Runs
 └── videos/                    # Sample Surveillance Video Streams for Testing
 ```
@@ -313,7 +307,7 @@ The-Saviourr/
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/Parthh1002/The-Saviourr.git
-cd The-Saviourr/the-saviour
+cd The-Saviourr
 ```
 
 ---
@@ -322,7 +316,7 @@ cd The-Saviourr/the-saviour
 
 ```bash
 # Navigate to backend directory
-cd backend
+cd the-saviour/backend
 
 # Create Python virtual environment
 python -m venv venv
@@ -345,10 +339,10 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 
 ### 3️⃣ Frontend Setup (Next.js 16)
 
-Open a new terminal tab and navigate to `the-saviour`:
+Open a new terminal tab and navigate to `the-saviour/frontend`:
 
 ```bash
-cd the-saviour
+cd the-saviour/frontend
 
 # Install project dependencies
 npm install
@@ -366,7 +360,7 @@ npm run dev
 
 ## ⚙️ Environment Configuration
 
-Create a `.env.local` file inside `the-saviour/`:
+Create a `.env.local` file inside `the-saviour/frontend/`:
 
 ```env
 # Frontend Environment
