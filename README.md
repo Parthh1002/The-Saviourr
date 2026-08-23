@@ -1,30 +1,52 @@
+Bhai, ye lo **poora combined, ultra-premium, animated aur fadu README.md**! Isme aapka team table, live Vercel link, GitHub repo link, YouTube video banner, typing animation aur official tech icons sab add kar diya hai:
+
+---
+
+```markdown
 <div align="center">
 
-  # 🌲 THE SAVIOUR 🛡️
-  ### Next-Gen AI-Powered Wildlife Surveillance & Poaching Prevention Platform
+  <!-- Animated Header Banner -->
+  <a href="https://the-saviour.vercel.app">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,26,0,112,60&height=260&section=header&text=THE%20SAVIOUR&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Next-Gen%20AI-Powered%20Wildlife%20Surveillance%20%26%20Poaching%20Prevention&descFontSize=19&descFontAlignY=62" width="100%" alt="The Saviour Banner"/>
+  </a>
 
-  [![Live Demo](https://img.shields.io/badge/🌐_LIVE_WEBSITE-the--saviour.vercel.app-00703c?style=for-the-badge&logo=vercel)](https://the-saviour.vercel.app)
-  [![Next.js](https://img.shields.io/badge/Next.js-16.2.4-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-  [![React](https://img.shields.io/badge/React-19.2.4-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
-  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
-  [![FastAPI](https://img.shields.io/badge/FastAPI-0.110.0-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
-  [![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?style=for-the-badge&logo=python)](https://www.python.org/)
-  [![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-FF6F00?style=for-the-badge&logo=ultralytics)](https://docs.ultralytics.com/)
-  [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?style=for-the-badge&logo=pytorch)](https://pytorch.org/)
-  [![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb)](https://www.mongodb.com/)
+  <br/>
 
+  <!-- Dynamic Typing SVG -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3000&pause=1000&color=00D26A&center=true&vCenter=true&width=650&lines=🌲+Watching+every+leaf%2C+every+footprint;🎯+98.4%25+Detection+Accuracy+%7C+YOLOv8+Object+Vision;🛡️+FastAPI+WebSockets+%7C+Real-Time+Threat+Alerts;🚨+Next.js+16+Mission+Control+%7C+Ranger+Dispatch" alt="Typing SVG" />
+  </a>
+
+  <br/>
+
+  <!-- Status & Metric Badges -->
   <p align="center">
-    <b>🌐 Live Working Website:</b> <a href="https://the-saviour.vercel.app">https://the-saviour.vercel.app</a><br>
-    <i>Empowering Forest Officers & Wildlife Conservators with Real-Time AI Computer Vision, Threat Alerts, and Emergency Response Management.</i>
+    <a href="https://the-saviour.vercel.app"><img src="https://img.shields.io/badge/🌐_LIVE_WEBSITE-the--saviour.vercel.app-00703c?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
+    <a href="https://github.com/Parthh1002/The-Saviourr"><img src="https://img.shields.io/badge/GitHub-The--Saviourr-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo" /></a>
+    <a href="https://youtu.be/bVBt6yWTc9w?si=9P6ibrOTQY2v_nv_"><img src="https://img.shields.io/badge/YouTube-Watch_Overview-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
+    <img src="https://img.shields.io/badge/System_Status-Active_24%2F7-00703c?style=for-the-badge&logo=shield&logoColor=white" alt="Status" />
   </p>
 
-  ---
+  <!-- Quick Links Navigation -->
+  <p align="center">
+    <a href="#-executive-summary"><b>Executive Summary</b></a> •
+    <a href="#-project-video-walkthrough"><b>Video Demo</b></a> •
+    <a href="#-team-members--workflow-architecture"><b>Team & Roles</b></a> •
+    <a href="#-key-features"><b>Features</b></a> •
+    <a href="#-technology-stack"><b>Tech Stack</b></a> •
+    <a href="#-system-architecture"><b>Architecture</b></a> •
+    <a href="#-quick-start--installation"><b>Installation</b></a>
+  </p>
 
 </div>
 
+---
+
 ## 📌 Executive Summary
 
-**THE SAVIOUR** is an enterprise-grade, mission-critical AI platform designed to protect endangered wildlife species from poaching, human intrusion, and habitat encroachment. Powered by state-of-the-art **YOLOv8 object detection**, high-speed **FastAPI WebSockets**, and an intuitive **Next.js 16 dashboard**, THE SAVIOUR converts raw surveillance feeds into actionable intelligence—instantly alerting forest rangers before casualties occur.
+> **"Watching every leaf, every footprint — so the wild stays wild."**
+
+**THE SAVIOUR** is an enterprise-grade, mission-critical AI platform designed to protect endangered wildlife species from poaching, human intrusion, and habitat encroachment. Powered by state-of-the-art **YOLOv8 custom object detection**, high-speed **FastAPI WebSockets**, and an intuitive **Next.js 16 dashboard**, THE SAVIOUR converts raw surveillance feeds into actionable intelligence — instantly alerting forest rangers with precise GPS coordinates before casualties occur.
 
 ---
 
@@ -34,7 +56,19 @@
 | :--- | :--- | :--- |
 | 🚀 **Live Web Platform** | [https://the-saviour.vercel.app](https://the-saviour.vercel.app) | 🟢 Active & Deployed |
 | 📁 **GitHub Repository** | [https://github.com/Parthh1002/The-Saviourr](https://github.com/Parthh1002/The-Saviourr) | 🟢 Public Repository |
+| 🎬 **YouTube Overview Video** | [https://youtu.be/bVBt6yWTc9w](https://youtu.be/bVBt6yWTc9w?si=9P6ibrOTQY2v_nv_) | 🟢 Live Demonstration |
 | ⚡ **FastAPI Swagger API Docs** | [http://localhost:8000/docs](http://localhost:8000/docs) | 🟢 Local / Server Endpoint |
+
+---
+
+## 🎬 Project Video Walkthrough
+
+<div align="center">
+  <a href="https://youtu.be/bVBt6yWTc9w?si=9P6ibrOTQY2v_nv_">
+    <img src="https://img.youtube.com/vi/bVBt6yWTc9w/maxresdefault.jpg" width="85%" style="border-radius: 12px; box-shadow: 0 8px 30px rgba(0, 112, 60, 0.3);" alt="The Saviour Video Overview"/>
+  </a>
+  <p><i>▶ Click above to watch the full project overview & live demonstration on YouTube.</i></p>
+</div>
 
 ---
 
@@ -50,99 +84,144 @@
 
 ## ✨ Key Features
 
-- 🤖 **AI-Powered Real-Time Threat Detection**:
-  - Detects **poachers, weapons (firearms/knives), unauthorized vehicles, and protected wildlife** (Tigers, Elephants, Rhinos, etc.) in live video streams.
-  - High confidence bounding boxes processed frame-by-frame via PyTorch and OpenCV.
-
-- ⚡ **Ultra-Low Latency Live Feed & WebSockets**:
-  - Live CCTV / Thermal Camera / Drone feed streaming with direct WebSocket push updates to the dashboard.
-  - Interactive camera selector with status monitoring (Online, Maintenance, Alert Active).
-
-- 🗺️ **GIS Interactive Surveillance Map**:
-  - Integrated **Leaflet GIS Map** showing live camera locations, active threat nodes, patrol team locations, and high-risk zones.
-  - Real-time marker updates and popup incident summary cards.
-
-- 🚨 **Instant SOS & Emergency Alert Dispatch**:
-  - Multi-channel notification engine triggering dashboard popups, SMS, and **Gmail SMTP OTP / Email notifications** upon detecting critical threats.
-  - Severity classification (Critical, Warning, Info) with rapid dispatch buttons for quick ranger deployment.
-
-- 📊 **Advanced Analytics & Heatmaps**:
-  - Comprehensive analytical suite built with **Recharts**.
-  - Animal movement tracking, hourly threat distribution, intrusion heatmaps, and camera health metrics.
-
-- 📄 **Automated PDF Incident Logging & Export**:
-  - One-click report generation for legal documentation and government compliance.
-  - High-resolution HTML-to-PDF compilation via **Puppeteer**, **JsPDF**, and **Html2Canvas**.
-
-- 🔐 **Role-Based Authentication & Security**:
-  - Enterprise JWT authentication backed by **Bcrypt** password hashing and **Gmail OTP verification**.
-  - Secondary authentication integration via **Firebase Auth**.
-
-- 🔄 **Cloud-Native AI Training Workflow**:
-  - Seamless pipeline for training custom YOLO models on **Google Colab GPUs (T4/A100)** and deploying exported `best.pt` model weights directly into the FastAPI inference engine.
+<table>
+  <tr>
+    <td width="50%">
+      <h3>🤖 AI Threat Detection (YOLOv8)</h3>
+      <ul>
+        <li>Detects <b>poachers, weapons (firearms/knives), unauthorized vehicles, and protected wildlife</b> in live video feeds.</li>
+        <li>High-confidence bounding box inference processed frame-by-frame via PyTorch and OpenCV.</li>
+      </ul>
+    </td>
+    <td width="50%">
+      <h3>⚡ Ultra-Low Latency WebSockets</h3>
+      <ul>
+        <li>Live CCTV / Thermal / Drone stream processing with WebSocket push straight to the ranger dashboard.</li>
+        <li>Interactive multi-camera selector with status monitoring (Online, Maintenance, Alert Active).</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🗺️ GIS Interactive Surveillance Map</h3>
+      <ul>
+        <li>Integrated <b>Leaflet GIS Map</b> showing live camera positions, active threat nodes, and patrol teams.</li>
+        <li>Live marker updates, sector risk scoring, and popup incident summary cards.</li>
+      </ul>
+    </td>
+    <td width="50%">
+      <h3>🚨 Rapid SOS & Multi-Channel Alerts</h3>
+      <ul>
+        <li>Multi-channel alert dispatch triggering UI modals, SMS, and <b>Gmail SMTP / OTP notifications</b>.</li>
+        <li>Severity classification (Critical, Warning, Info) with rapid dispatch buttons for ranger deployment.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>📊 Incident Analytics & Heatmaps</h3>
+      <ul>
+        <li>Comprehensive telemetry suite built with <b>Recharts</b>.</li>
+        <li>Animal movement tracking, hourly threat distribution, intrusion heatmaps, and camera health metrics.</li>
+      </ul>
+    </td>
+    <td width="50%">
+      <h3>📄 Automated PDF Incident Dossiers</h3>
+      <ul>
+        <li>One-click incident reports for legal documentation and forest department compliance.</li>
+        <li>Compiled client-side with <b>JsPDF</b>, <b>Html2Canvas</b>, and headless <b>Puppeteer</b>.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 🛠️ Technology Stack
 
-### **Frontend Architecture**
-| Technology | Description |
-| :--- | :--- |
-| **Next.js 16 (App Router)** | Full-stack React framework optimized for speed, SSR, and API routes |
-| **React 19** | Modern UI rendering library with concurrent features |
-| **TypeScript** | Type-safe development environment |
-| **Tailwind CSS v4** | Next-generation utility-first CSS styling engine |
-| **Framer Motion** | Micro-interactions and fluid animation transitions |
-| **Leaflet & React-Leaflet** | Interactive vector mapping & GIS location rendering |
-| **Recharts** | Interactive charting engine for analytics and metrics |
-| **Lucide Icons** | Modern UI icon library |
+<div align="center">
 
-### **Backend Architecture**
-| Technology | Description |
-| :--- | :--- |
-| **FastAPI** | Asynchronous Python web framework for high-performance APIs |
-| **Uvicorn** | Lightning-fast ASGI web server |
-| **PyTorch** | Deep learning platform powering model inference |
-| **Ultralytics YOLOv8** | State-of-the-art computer vision model for real-time detection |
-| **OpenCV (cv2)** | Image and video stream processing |
-| **Motor (MongoDB Async)** | Asynchronous Python driver for MongoDB Atlas |
-| **WebSockets** | Bi-directional real-time alert and telemetry stream |
-| **Pydantic v2** | Data validation and settings management |
+### 💻 Frontend & UI/UX
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,framer,html,css" alt="Frontend Stack" />
+</p>
 
-### **Security, Services & Reporting**
-| Technology | Description |
-| :--- | :--- |
-| **JWT & Passlib** | Secure authentication and password hashing |
-| **Firebase Auth** | User identity management |
-| **Nodemailer / Smtplib** | Automated email dispatch & OTP verification |
-| **Puppeteer & JsPDF** | Headless PDF generation for incident logs |
+```
+Next.js 16 (App Router) • React 19 • TypeScript • Tailwind CSS v4 • Framer Motion • Leaflet GIS • Recharts • Lucide Icons
+```
+
+### 🧠 AI / Computer Vision & Backend
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,opencv,fastapi,mongodb,firebase" alt="Backend Stack" />
+</p>
+
+```
+FastAPI • Python 3.12+ • Ultralytics YOLOv8 • PyTorch • OpenCV • Motor (Async MongoDB) • WebSockets • Firebase Auth
+```
+
+### 🛡️ Security, Communication & Reporting
+<p align="center">
+  <img src="https://img.shields.io/badge/JWT_Auth-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gmail_SMTP-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/Puppeteer-40B5A4?style=for-the-badge&logo=puppeteer&logoColor=white" />
+  <img src="https://img.shields.io/badge/jsPDF-FF5722?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />
+</p>
+
+</div>
 
 ---
 
 ## 📐 System Architecture
 
 ```mermaid
-graph TD
-    A["📹 Surveillance Cameras / Drones / CCTV Feeds"] -->|"RTSP / H264 Streams"| B["⚡ FastAPI Backend"]
-    B -->|"Frames"| C["🧠 YOLOv8 Inference Engine"]
-    C -->|"Bounding Boxes & Detections"| B
-    
-    B -->|"Check Confidence Threshold"| D{"Threat Detected?"}
-    D -->|"Yes - Poacher / Weapon"| E["🚨 Emergency Alert System"]
-    D -->|"No - Normal Activity"| F["💾 MongoDB Logging"]
-    
-    E -->|"WebSocket Broadcast"| G["💻 Next.js 16 Ranger Dashboard"]
-    E -->|"SMTP / Gmail API"| H["📧 Emergency Email & OTP Notification"]
-    
-    G -->|"Interactive GIS Map"| I["🗺️ Leaflet Tracking & Heatmaps"]
-    G -->|"Analytical Reports"| J["📄 PDF Export - Puppeteer/JsPDF"]
-    
-    F -->|"Store Logs"| K["🍃 MongoDB Atlas Async"]
+flowchart TD
+    subgraph Feeds ["🌲 Surveillance Edge & Feeds"]
+        CAM["📹 Trail / CCTV / Thermal Cameras"]
+        DRN["🛸 Drone Aerial Stream"]
+    end
+
+    subgraph Backend ["⚡ FastAPI Backend & AI Pipeline"]
+        WS["🔌 WebSocket Server (/ws/live-feed)"]
+        YOLO["🧠 YOLOv8 Inference Engine (best.pt)"]
+        CHECK{"Threat Detected?"}
+        CAM --> WS
+        DRN --> WS
+        WS --> YOLO
+        YOLO --> CHECK
+    end
+
+    subgraph Storage ["🍃 Database & Cloud"]
+        MONGO[("🍃 MongoDB Atlas Async Logs")]
+        FIRE["🔥 Firebase Auth & Identity"]
+    end
+
+    subgraph Alerts ["🚨 Dispatch Engine"]
+        MAIL["📧 Gmail SMTP / OTP Emergency Dispatch"]
+        ALERT["🚨 Priority Event Trigger"]
+    end
+
+    subgraph Frontend ["💻 Ranger Command Center (Next.js 16)"]
+        DASH["🌐 Command Dashboard"]
+        MAP["🗺️ Interactive Leaflet GIS"]
+        CHARTS["📊 Recharts Telemetry"]
+        PDF["📄 PDF Incident Export"]
+    end
+
+    CHECK -->|Yes: Poacher / Weapon / Intruder| ALERT
+    CHECK -->|No: Normal Wildlife Activity| MONGO
+    ALERT --> MAIL
+    ALERT --> WS
+    WS --> DASH
+    DASH --> MAP
+    DASH --> CHARTS
+    DASH --> PDF
+    FIRE -.-> DASH
+    MONGO -.-> DASH
 ```
 
 ---
 
-## 📁 Directory Structure
+## 📁 Repository Structure
 
 ```text
 The-Saviour/
@@ -242,7 +321,7 @@ npm run dev
 
 ## ⚙️ Environment Variables
 
-Create a `.env` / `.env.local` file inside `the-saviour/` and configure the following:
+Create a `.env.local` file inside `the-saviour/`:
 
 ```env
 # Frontend Environment
@@ -254,7 +333,7 @@ NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
 NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
 
-# Backend Environment (backend/.env or exported)
+# Backend Environment (backend/.env)
 MONGO_URI=mongodb://localhost:27017/saviour_db
 SECRET_KEY=your_super_secret_jwt_key_change_in_production
 GMAIL_USER=your_email@gmail.com
@@ -297,12 +376,10 @@ GMAIL_APP_PASS=your_gmail_app_password
 
 ## 🤝 Contributing
 
-Contributions make the open-source community an inspiring place to learn, design, and create. Any contributions to **THE SAVIOUR** are greatly appreciated!
-
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git checkout -b feature/AmazingFeature`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
 ---
@@ -312,8 +389,11 @@ Contributions make the open-source community an inspiring place to learn, design
 Distributed under the **MIT License**. See `LICENSE` for more information.
 
 <div align="center">
-
-  ---
-  Made with ❤️ & 🌿 by **Team Saviour** to protect wildlife and empower conservators worldwide.
-
+  <br/>
+  <p>Made with ❤️ & 🌿 by <b>Team Saviour</b> to protect wildlife and empower conservators worldwide.</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,112,60,0,2,26&height=120&section=footer" width="100%"/>
 </div>
+```
+
+---
+
