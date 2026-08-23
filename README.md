@@ -1,18 +1,16 @@
 <div align="center">
 
-  <!-- Animated Header Banner -->
+  <!-- Hero Project Header Banner -->
   <a href="https://the-saviour.vercel.app">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,26,0,112,60&height=270&section=header&text=THE%20SAVIOUR&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Next-Gen%20AI-Powered%20Wildlife%20Surveillance%20%26%20Poaching%20Prevention&descFontSize=20&descFontAlignY=62" width="100%" alt="The Saviour Banner"/>
-  </a>
-
-  <br/>
-
-  <!-- Dynamic Typing SVG Animation -->
-  <a href="https://the-saviour.vercel.app">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=1000&color=00D26A&center=true&vCenter=true&width=700&lines=🌲+Watching+every+leaf%2C+every+footprint;🎯+98.4%25+Detection+Accuracy+%7C+YOLOv8+Object+Vision;🛡️+FastAPI+WebSockets+%7C+Real-Time+Threat+Alerts;🚨+Next.js+16+Mission+Control+%7C+Ranger+Dispatch;🐾+Protecting+Endangered+Wildlife+24%2F7" alt="Typing SVG" />
+    <img src="./assets/banner.jpg" width="100%" style="border-radius: 16px; border: 2px solid #00D26A; box-shadow: 0 12px 40px rgba(0, 210, 106, 0.25);" alt="THE SAVIOUR - AI Wildlife Surveillance & Poaching Prevention Banner"/>
   </a>
 
   <br/><br/>
+
+  <!-- Self-Hosted Animated HUD Status Bar -->
+  <p align="center">
+    <img src="./assets/animated-subbanner.svg" width="100%" alt="System Status Banner" />
+  </p>
 
   <!-- Status & Metric Badges -->
   <p align="center">
@@ -40,6 +38,7 @@
     <a href="#-executive-summary"><b>Executive Summary</b></a> •
     <a href="#-live-platform--links"><b>Live Platform</b></a> •
     <a href="#-video-demonstration"><b>Video Demo</b></a> •
+    <a href="#-visual-showcase--surveillance-gallery"><b>Visual Showcase</b></a> •
     <a href="#-team-members--workflow-matrix"><b>Team & Roles</b></a> •
     <a href="#-key-features"><b>Features</b></a> •
     <a href="#-technology-stack"><b>Tech Stack</b></a> •
@@ -83,6 +82,39 @@
   </a>
   <br/><br/>
   <p><i>▶ <b>Click the banner above</b> to watch the complete end-to-end platform demonstration and live alert walkthrough.</i></p>
+</div>
+
+---
+
+## 📸 Visual Showcase & Surveillance Gallery
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <img src="./assets/detection-feed.jpg" width="100%" style="border-radius: 8px;" alt="AI Detection Live Feed" />
+        <br/>
+        <b>🎯 Real-Time YOLOv8 Detection Feed</b>
+      </td>
+      <td width="50%" align="center">
+        <img src="./assets/nature-watching.png" width="100%" style="border-radius: 8px;" alt="Wildlife Monitoring & Sensor Grid" />
+        <br/>
+        <b>🛰️ Wildlife Tracking &amp; Sensor Grid</b>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="center">
+        <img src="./assets/hero-forest.jpg" width="100%" style="border-radius: 8px;" alt="Tactical Ranger Command Center" />
+        <br/>
+        <b>🌲 Forest Sector Surveillance Zone</b>
+      </td>
+      <td width="50%" align="center">
+        <img src="./assets/wildlife-tiger.jpg" width="100%" style="border-radius: 8px;" alt="Species Protection Telemetry" />
+        <br/>
+        <b>🐾 Endangered Species Protection Telemetry</b>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
@@ -231,6 +263,13 @@ flowchart TD
 
 ```text
 The-Saviourr/
+├── assets/                    # Project Media, Visual Showcase & High-Res Banners
+│   ├── banner.jpg             # High-Tech AI Wildlife Command Center Banner
+│   ├── animated-subbanner.svg # Self-Hosted Animated Live System Status Bar
+│   ├── footer.svg             # Wavy Emerald Brand Footer SVG
+│   ├── detection-feed.jpg     # YOLOv8 Live Detection Frame
+│   ├── nature-watching.png    # Sensor Telemetry & Animal Tracking
+│   └── hero-forest.jpg        # Tactical Forest Command Zone
 ├── the-saviour/               # Primary Next.js 16 Application
 │   ├── backend/               # FastAPI Asynchronous AI Backend
 │   │   ├── models/            # YOLOv8 Custom Weights (best.pt)
@@ -400,6 +439,6 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
   <br/>
   <p>Made with ❤️ & 🌿 by <b>Team Saviour</b> — Dedicated to Wildlife Preservation.</p>
   <a href="https://github.com/Parthh1002/The-Saviourr">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,112,60,0,2,26&height=120&section=footer" width="100%"/>
+    <img src="./assets/footer.svg" width="100%" alt="Footer Banner"/>
   </a>
 </div>
