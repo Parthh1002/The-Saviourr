@@ -1,24 +1,37 @@
 <div align="center">
 
-  <!-- Hero Project Header Banner -->
-  <a href="https://the-saviour.vercel.app">
-    <img src="./assets/banner.jpg" width="100%" style="border-radius: 16px; border: 2px solid #00D26A; box-shadow: 0 12px 40px rgba(0, 210, 106, 0.25);" alt="THE SAVIOUR - AI Wildlife Surveillance & Poaching Prevention Banner"/>
-  </a>
+  <!-- Hero Project Header: 20% Logo + 80% Rich Details -->
+  <table border="0" style="border: none; width: 100%; max-width: 950px; background: transparent;">
+    <tr style="border: none;">
+      <td width="20%" align="center" valign="middle" style="border: none; padding: 10px;">
+        <a href="https://the-saviour.vercel.app">
+          <img src="./assets/logo.png" width="155px" style="border-radius: 18px; border: 2px solid #00D26A; box-shadow: 0 8px 30px rgba(0, 210, 106, 0.35);" alt="THE SAVIOUR Logo" />
+        </a>
+      </td>
+      <td width="80%" align="left" valign="middle" style="border: none; padding-left: 20px;">
+        <h1 style="margin: 0; font-size: 2.2rem; color: #00D26A; border-bottom: none;">🌿 THE SAVIOUR</h1>
+        <p style="font-size: 1.1rem; color: #94A3B8; margin-top: 4px; margin-bottom: 10px; font-weight: 500;">
+          <b>Autonomous AI Wildlife Surveillance &amp; Poaching Prevention Platform</b>
+        </p>
+        <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #CBD5E1;">
+          🎯 <b>Real-Time YOLOv8 Vision</b> • ⚡ <b>FastAPI WebSockets (&lt;50ms)</b> • 🛰️ <b>GIS Ranger Command Grid</b> • 🚨 <b>Automated Dispatch &amp; Alerts</b>
+        </p>
+        <div style="margin-top: 12px;">
+          <a href="https://the-saviour.vercel.app"><img src="https://img.shields.io/badge/🌐_LIVE_DEMO-the--saviour.vercel.app-00703c?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
+          <a href="https://github.com/Parthh1002/The-Saviourr"><img src="https://img.shields.io/badge/GitHub-The--Saviourr-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo" /></a>
+          <a href="https://youtu.be/bVBt6yWTc9w?si=9P6ibrOTQY2v_nv_"><img src="https://img.shields.io/badge/YouTube-Watch_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Demo" /></a>
+          <img src="https://img.shields.io/badge/Status-Active_24%2F7-00703c?style=for-the-badge&logo=shield&logoColor=white" alt="Status" />
+          <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" />
+        </div>
+      </td>
+    </tr>
+  </table>
 
-  <br/><br/>
+  <br/>
 
   <!-- Self-Hosted Animated HUD Status Bar -->
   <p align="center">
     <img src="./assets/animated-subbanner.svg" width="100%" alt="System Status Banner" />
-  </p>
-
-  <!-- Status & Metric Badges -->
-  <p align="center">
-    <a href="https://the-saviour.vercel.app"><img src="https://img.shields.io/badge/🌐_LIVE_DEMO-the--saviour.vercel.app-00703c?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
-    <a href="https://github.com/Parthh1002/The-Saviourr"><img src="https://img.shields.io/badge/GitHub-The--Saviourr-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo" /></a>
-    <a href="https://youtu.be/bVBt6yWTc9w?si=9P6ibrOTQY2v_nv_"><img src="https://img.shields.io/badge/YouTube-Watch_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube Demo" /></a>
-    <img src="https://img.shields.io/badge/Status-Active_24%2F7-00703c?style=for-the-badge&logo=shield&logoColor=white" alt="Status" />
-    <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" />
   </p>
 
   <p align="center">
